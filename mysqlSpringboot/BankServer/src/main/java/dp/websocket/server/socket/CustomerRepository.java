@@ -1,0 +1,8 @@
+package dp.websocket.server.socket;
+
+import org.springframework.data.repository.CrudRepository;
+public interface CustomerRepository  extends CrudRepository<Customer, Integer> {
+	
+	
+
+}
